@@ -1,0 +1,7 @@
+SHELL=/bin/bash 
+PATH=$HOME/bin:/usr/local/bin:/usr/bin:$PATH
+# m h  dom mon dow   command
+
+# run speedtest script every 2 hours
+17 */2 * * * ~/bin/speedtest.sh
+

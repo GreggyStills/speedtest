@@ -1,0 +1,22 @@
+#
+# How to setup a cron job to run Speedtest, and save results in spreadsheet (CSV)
+#
+
+# Make sure Python v2.7 is installed
+
+# Make sure pip is installed
+
+# install speedtest Python client
+sudo pip install speedtest-cli
+
+# copy speedtest script into your bin directory
+mkdir ~bin
+cp speedtest.sh ~/bin/
+
+
+crontab -e
+# copy-paste contents of 'crontab' file into your crontab
+# save crontab
+
+# done!
+
