@@ -10,7 +10,7 @@
 sudo pip install speedtest-cli
 
 # copy speedtest script into your bin directory
-mkdir ~bin
+mkdir ~/bin
 cp speedtest.sh ~/bin/
 
 
