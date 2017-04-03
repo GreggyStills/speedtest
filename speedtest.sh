@@ -2,7 +2,7 @@
 # 
 # Run speedtest client, save output in CSV files (rotated monthly)
 #
-ym=`date +%Y-%m`
+ym=$(date +%Y-%m)
 dir=${HOME}/speedtest
 fname=${dir}/${ym}_speedtest.csv
 
